@@ -20,7 +20,7 @@ header{
   
 }
 body{
-        background-color: darkviolet;
+    background-color: darkviolet;
     }
 #caja{
     width: 200px;
@@ -33,14 +33,64 @@ body{
     background-color: chartreuse;
     margin: 16px;
 }
+#c1{
+    background-color: brown;
+}
+
+#c2{
+    background-color: darkcyan;
+}
+#c3{
+    background-color: darkkhaki;
+}
 #logo{
-    width: 800px;
-    height: 68px;
-    background-color: cornflowerblue;
+    position:absolute;
+    top:30px;
+    width:200px;
+    height:60px;
+    background:#ccc;
     border: 5px solid white
     border-radius 10px;
-}
+    }
+.redes{
+    position:relativo;
+    width:42px;
+    border-radius: 50px 0 50px 0 / 100px 0 100px 0;
+    }
+.iconos{
+    top:42px;
+    right:120px;
+    }
+
+.botones{
+    float:leff;
+    width:196px;
+    margin:0px 2px;
+    height:48px;
+    background:#333;
+    }
+
+#top ul{
+    position:relative;
+    margin:0px 2px;
+    width:20px;
+    height:48px;
+    }
+#top ul{
+    width:1010px;
+    height:192px;
+    }
+#top ul{
+    float:left;
+    width:326px;
+    height:192px;
+    background:black;
+    margin-right:10px;
+    }
+
+
 </style>
+
 </head>
 <body>
     <header>Encabezado</header>
@@ -59,8 +109,119 @@ body{
     
 </body>
 
+<style>
+header{
+    position:relativo;
+    margin:auto;
+    width:1000px;
+    height:120px;
+    background:#444;
+
+}
+
+Aside#izq{
+    position:absolute;
+    left: 0;
+    top:0;
+    width:200px;
+    height: 453px;
+    background: #2c07c2;
+}
+Aside#der{
+    position:absolute;
+    rigth:0;
+    top:0;
+    width:200px;
+    height: 453px;
+    background: #333;
+}
+
+
+Article {
+    position:static;
+    left:150;
+    rigth:0;
+    top:200px;
+    width:400px;
+    height: 150px;
+    background: #f43fd3;
+    }  
+  
+nav {
+    position:relativo;
+    margin:auto;
+    width:1000px;
+    height:4px;
+    background: #aaa;
+    }
+Grupo {
+    width:200px;
+    height:200px;
+    margin:20 px;
+}
+
+#c1{ 
+    background:magenta
+    }
+
+#c2{
+    background:#393393;
+    }
+
+#c3{
+    background:green
+}
+</style>
+
+
+<header>
+    <div>logotipo</div>
+</header>
+
+<div id="caja"></div>
+<div id="c1"class="grupo"></div>
+<div id="c2"class="grupo"></div>
+<div id="c3"class="grupo"></div>
+
+
+<aside>
+    <div>noticia1</div>
+    <div>noticia2</div>
+    <div>noticia3</div>
+</aside>
+
+
+
+<center>
+
+    <h3 Formulario></h3>
+    <form>
+        <label for="texto">entrada de texto</label>
+        <input id=" texto"type="text"placeholder="entrada de texto" value="">
+    </form>
+<br>
+<br>
+    <form>
+        <label for="correo">entrada de correo</label>
+        <input id="correo"type="email"placeholder="entrada de correo" value="">
+    </form>
+<br>
+<br>
+    <form>
+        <label for="number">entrada de numero</label>
+        <input id="number"type="number"placeholder="number"value="10" min="0" max="3">
+    </form>
+<br>
+<br>
+    <form>
+        <label for="password">entrada de password</label>
+        <input id=" pass" type="password" placeholder="entrada de contraseña" value="">
+    </form>
+
+</center>
+
 <figure>
-    <img src="img/5-paisajes-del-sur-argentino-portada-principaal-3.jpg">
+<img src="img/5-paisajes-del-sur-argentino-portada-principaal-3.jpg">
     
 <audio autoplay controls loop preload="auto"></audio>
     
@@ -73,8 +234,6 @@ body{
 <iframe width="500" height="280" src="https://www.youtube.com/embed/whatch?v=FAPUn-YoPmo"> frameborder="0"allowfullscreem</iframe>
 
 <iframe width="640" height="360" src="https://player.vimeo.com/video/553313254?h=7ab0cb8082&color=333333&title=0&byline=0&portrait=0&badge=0" frameborder="0" allowfullscreen></iframe>
-
-<div></div>
 
 </figure>
 
